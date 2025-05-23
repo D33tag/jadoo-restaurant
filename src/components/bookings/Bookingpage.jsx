@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 
 
-const booking = () => {
+const Bookingpage = () => {
     return (
         <>
             <h5>Easy and Fast</h5>
@@ -82,4 +82,4 @@ const booking = () => {
     )
 }
 
-export default booking
+export default Bookingpage

@@ -4,7 +4,8 @@ import Home from './pages/home/Home'
 import './App.css'
 import Catego from './components/header/categories/Catego';
 import Topselling from './components/top-selling/Topselling';
-import Booking from './components/bookings/Booking';
+import Bookingpage from './components/bookings/Bookingpage';
+
 
 const HomePage = () => {
   return (
@@ -18,7 +19,7 @@ const HomePage = () => {
 
       <Catego />
       <Topselling />
-      <Booking />
+      <Bookingpage />
     </div>
 
 
