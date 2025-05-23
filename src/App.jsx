@@ -4,7 +4,7 @@ import Home from './pages/home/Home'
 import './App.css'
 import Catego from './components/header/categories/Catego';
 import Topselling from './components/top-selling/Topselling';
-import Booking from './components/bookings/booking';
+import Booking from './components/bookings/Booking';
 
 const HomePage = () => {
   return (
