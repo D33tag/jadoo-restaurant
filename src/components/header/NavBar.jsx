@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
-import Logo from '../../assets/images/logo.png';
+
 import '../../App.css'; // Import your CSS file for custom styles
 
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
                 {/* Logo */}
                 <div className='Jado'>
                     <Navbar.Brand href="#" className="d-flex align-items-center">
-                        <img src={Logo} alt="Logo" className="navbar-logo" /></Navbar.Brand>
+                        <img src= "/images/Logo.png" alt="Logo" className="navbar-logo" /></Navbar.Brand>
                 </div>
 
                 {/* Links */}
