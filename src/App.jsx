@@ -5,6 +5,8 @@ import './App.css'
 import Catego from './components/header/categories/Catego';
 import Topselling from './components/top-selling/Topselling';
 import Bookingpage from './components/bookings/Bookingpage';
+import Testimonials from './components/testimonial/Testimonials';
+import Subscribe from './components/subscribeSection/Subscribe';
 
 
 const HomePage = () => {
@@ -20,6 +22,8 @@ const HomePage = () => {
       <Catego />
       <Topselling />
       <Bookingpage />
+      <Testimonials />
+      <Subscribe />
     </div>
 
 

@@ -280,8 +280,6 @@
 
 .card {
   border: none !important; 
-  border-radius: 20px;
-  padding: 20px;
 }
 
 .card:hover {
@@ -307,15 +305,15 @@
 }
 
 .custom-card-img{
-  width: 250px;
+  width: 100%;
   height:200px;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   background-color: #f1a501;
 }
 
 .custom-card-img img {
-  width: 250px;
-  height: 200px;
+  width:100%;
   border-radius: 20px;
   
 }
@@ -325,6 +323,7 @@
   justify-content: center;
   margin-top: 50px;
   gap: 100px;
+  margin-bottom: 50px;
 }
 
 .locations {
@@ -344,3 +343,80 @@
   font-weight: bold;
   color: #5E6282;
 }
+
+.Bookingtext {
+  font-size: 50px;
+  font-family: 'Volkhov', serif;
+}
+
+.easyandfasttext{
+  font-size: 18px;
+  font-weight: bold;
+  color: #5E6282;
+}
+
+.Destina {
+  display: flex;
+}
+
+.bigDiv{
+  margin-top: 125px;
+  display: flex;
+}
+
+.airportwriting{
+  margin-left: 15px;
+}
+
+.despayair{
+  margin-top: 25px;
+}
+
+.robbin{
+  color: #84829A;
+  margin-top:10px ;
+}
+
+.lemese{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.buildpeo{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.buildpeo p {
+  color: #84829A;
+}
+
+.eaft{
+  display: flex;
+  margin-top:250px ;
+}
+
+.eaft img {
+ 
+}
+
+.imagesfive{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 100px;
+}
+
+/*  */
+
+.subscribeSection{
+  background-image: url(/public/images/Rectangle164.png);
+}
+
+.subscribeSection h2 {
+  display: flex;
+  justify-content: center;
+}
+
